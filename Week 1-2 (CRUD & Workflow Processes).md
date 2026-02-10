@@ -25,6 +25,7 @@
 ### TL;DR
 
 * **CRUD PowerApps Kickoff**
+* **Link to PowerApps Progress:** [https://csulb-my.sharepoint.com/shared?listurl=https%3A%2F%2Fcsulb%2Dmy%2Esharepoint%2Ecom%2Fpersonal%2Fangel%5Fmendez%2Dsa%5Fcsulb%5Fedu%2FDocuments&id=%2Fpersonal%2Fangel%5Fmendez%2Dsa%5Fcsulb%5Fedu%2FDocuments%2FPowerApps%20Progress%202%2D10%2D2026%2Epng&parent=%2Fpersonal%2Fangel%5Fmendez%2Dsa%5Fcsulb%5Fedu%2FDocuments&shareLink=1&ga=1](https://csulb-my.sharepoint.com/shared?listurl=https%3A%2F%2Fcsulb%2Dmy%2Esharepoint%2Ecom%2Fpersonal%2Fangel%5Fmendez%2Dsa%5Fcsulb%5Fedu%2FDocuments&id=%2Fpersonal%2Fangel%5Fmendez%2Dsa%5Fcsulb%5Fedu%2FDocuments%2FPowerApps%20Progress%202%2D10%2D2026%2Epng&parent=%2Fpersonal%2Fangel%5Fmendez%2Dsa%5Fcsulb%5Fedu%2FDocuments&shareLink=1&ga=1)
 * **Research Workflows for Dev Team**
 * **Link to Flowchart:** [https://csulb-my.sharepoint.com/:i:/g/personal/angel_mendez-sa_csulb_edu/IQD4P9OlKRKhTJq3bb3Kr7PJAer7TN-nJy7zkCKNABtSLKk?e=Xcow7y](https://csulb-my.sharepoint.com/:i:/g/personal/angel_mendez-sa_csulb_edu/IQD4P9OlKRKhTJq3bb3Kr7PJAer7TN-nJy7zkCKNABtSLKk?e=Xcow7y)
 
@@ -262,3 +263,4 @@ Examples:
 * What I did
 * Notes
 * Tomorrow
+
