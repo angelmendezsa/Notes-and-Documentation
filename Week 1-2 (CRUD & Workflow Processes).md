@@ -1,368 +1,264 @@
-##### **02/05/2026 (Tuesday Meeting)**
+# Week 1–2 Work Notes (CRUD & Workflow Processes)
 
--next week starting on CUP
+---
 
--How we're going to model bigger changes to
+## 02/05/2026 (Tuesday Meeting)
 
--Make sure Angel has access to all webpages
+* next week starting on CUP
 
+* How we're going to model bigger changes to
 
+* Make sure Angel has access to all webpages
 
--Angel needs to do Power App, Luis provide instructions on how to load up? the time off app on the machine?
+* Angel needs to do Power App, Luis provide instructions on how to load up? the time off app on the machine?
 
-\- Luis' environment is still active. Angel needs to be hooked up onto GitHub, etc.
+* Luis' environment is still active. Angel needs to be hooked up onto GitHub, etc.
 
--Proof of concept
+* Proof of concept
 
-\- CUP going to be the heavy stuff
+* CUP going to be the heavy stuff
 
+---
 
+## 02/10/2026 (Tuesday)
 
+### TL;DR
 
+* **CRUD PowerApps Kickoff**
+* **Research Workflows for Dev Team**
+* **Link to Flowchart:** [https://csulb-my.sharepoint.com/:i:/g/personal/angel_mendez-sa_csulb_edu/IQD4P9OlKRKhTJq3bb3Kr7PJAer7TN-nJy7zkCKNABtSLKk?e=Xcow7y](https://csulb-my.sharepoint.com/:i:/g/personal/angel_mendez-sa_csulb_edu/IQD4P9OlKRKhTJq3bb3Kr7PJAer7TN-nJy7zkCKNABtSLKk?e=Xcow7y)
 
-# **02/10/2026 (Tuesday)**
+---
 
+## Workflow Flowcharts
 
+* **Intent (what & why)** → Jira / GitHub Issues
+* **Execution (how & when)** → GitHub (code, PRs)
+* **Artifacts (thinking)** → Google Drive
 
-## **TL;DR**
+---
 
-###### **## CRUD PowerApps Kickoff W.I.P.**
+## BEGIN DEV WORKFLOWS
 
-    **##Documentation/Procedure Building** 
+### Tools
 
-###### **## Research Workflows for Dev Team W.I.P.**
+* *Jira ticket* = a tracked work item (bug, task, feature)
+* *PR (Pull Request)* = a request to merge code you wrote into the main codebase
+* *Done criteria* = how we know the work is finished (2–5 bullets)
+* *Smoke check* = quick check to see if the app still works after deploy
+* *Procedure* = step-by-step instructions for repeating a task
+* *Repo* = the GitHub project where the code lives
 
-###### [**Link to Flowchart**](https://csulb-my.sharepoint.com/:i:/g/personal/angel_mendez-sa_csulb_edu/IQD4P9OlKRKhTJq3bb3Kr7PJAer7TN-nJy7zkCKNABtSLKk?e=Xcow7y)
+---
 
+### Roles
 
+* *Requester* — Anyone asking for work (manager, teammate, you)
+* *Lead* — Person who prioritizes work (manager or senior dev)
+* *Developer (Dev)* — Person doing the work
+* *Reviewer* — Another dev who reviews code
+* *(Small team: one person may fill multiple roles.)*
 
+---
 
+## THE WORKFLOW (STEP BY STEP)
 
-### **Workflow Flowcharts**
+### 1) Someone asks for work
 
-Intent (what \& why)    → Jira / GitHub Issues
+**Who:** Manager, teammate, customer, or you
 
-Execution (how \& when) → GitHub (code, PRs)
+* If the work will take more than ~30 minutes, a Jira ticket is created
+* Ticket says:
 
-Artifacts (thinking)   → Google Drive
+  * what the problem is
+  * what “done” looks like (example: “login works, no errors in logs”)
 
+➡️ **Strict:** work starts only after a ticket exists (same day is okay)
 
+---
 
+### 2) Ticket is made ready
 
+**Who:** Manager / team lead (or dev if small team)
 
-### **##BEGIN DEV WORKFLOWS**
+* Sets priority (high / medium / low)
+* Assigns ticket to a dev (or puts it in “Ready”)
 
+➡️ **Strict:** every ticket has an owner and priority
 
+---
 
-###### ***Tools***
+### 3) Dev starts work
 
-<i>Jira ticket = a tracked work item (bug, task, feature)</i>
+**Who:** Developer
 
-<i>PR (Pull Request) = a request to merge code you wrote into the main codebase</i>
+* Moves Jira ticket to In Progress
+* Creates a branch in GitHub named after the ticket (example: DEV-42)
+* Starts a daily log (private notes):
 
-<i>Done criteria = how we know the work is finished (2–5 bullets)</i>
+  * what you tried
+  * what worked / failed
 
-<i>Smoke check = quick check to see if the app still works after deploy</i>
+➡️ **Strict:** ticket status matches reality
+➡️ **Not strict:** how neat the notes are
 
-<i>Procedure = step-by-step instructions for repeating a task</i>
+---
 
-<i>Repo = the GitHub project where the code lives</i>
+### 4) Dev writes code
 
+**Who:** Developer
 
+* Makes code changes
+* Runs tests or manually checks the feature
+* If something feels confusing or painful, notes it
 
-###### <i>**Roles**</i>
+➡️ **Strict:** code changes relate to the ticket
 
-<i>Requester: Anyone asking for work (manager, teammate, you)</i>
+---
 
-<i>Lead: Person who prioritizes work (manager or senior dev)</i>
+### 5) Dev opens a PR
 
-<i>Developer (Dev): Person doing the work</i>
+**Who:** Developer
 
-<i>Reviewer: Another dev who reviews code</i>
+* Opens a Pull Request (PR) in GitHub
+* PR includes:
 
-<i>(Small team: one person may fill multiple roles.)</i>
+  * link to Jira ticket
+  * short explanation of what changed
+  * how it was tested (“clicked login, saw success”)
 
+➡️ **Strict:** every PR links to a Jira ticket
 
+---
 
-### 
+### 6) Code is reviewed
 
-### **THE WORKFLOW (STEP BY SEP)**
+**Who:** Another developer
 
-##### **1) Someone asks for work**
+* Reviews PR
+* Checks:
 
-Who: Manager, teammate, customer, or you
+  * does it work?
+  * does it make sense?
+* Approves or asks for changes
 
-If the work will take more than ~30 minutes, a Jira ticket is created
+➡️ **Strict:** no merging without review
 
-Ticket says:
+---
 
-what the problem is
+### 7) Changes go live
 
-what “done” looks like (example: “login works, no errors in logs”)
+**Who:** Developer or DevOps
 
-➡️ Strict: work starts only after a ticket exists (same day is okay)
+* PR is merged
+* Code is deployed
+* Smoke check:
 
+  * open the app
+  * basic feature works
+  * no obvious errors
 
+➡️ **Strict:** always do a quick smoke check
 
-##### **2) Ticket is made ready**
+---
 
-Who: Manager / team lead (or dev if small team)
+### 8) Knowledge is saved (only if needed)
 
-Sets priority (high / medium / low)
+**Who:** Developer
 
-Assigns ticket to a dev (or puts it in “Ready”)
+* If this task will happen again:
 
-➡️ Strict: every ticket has an owner and priority
+  * write a procedure
+  * store it in the repo
 
-
-
-##### **3) Dev starts work**
-
-Who: Developer
-
-Moves Jira ticket to In Progress
-
-Creates a branch in GitHub named after the ticket (example: DEV-42)
-
-Starts a daily log (private notes):
-
-what you tried
-
-what worked / failed
-
-➡️ Strict: ticket status matches reality
-
-➡️ Not strict: how neat the notes are
-
-
-
-##### **4) Dev writes code**
-
-Who: Developer
-
-Makes code changes
-
-Runs tests or manually checks the feature
-
-If something feels confusing or painful, notes it
-
-➡️ Strict: code changes relate to the ticket
-
-
-
-##### **5) Dev opens a PR**
-
-Who: Developer
-
-Opens a Pull Request (PR) in GitHub
-
-PR includes:
-
-link to Jira ticket
-
-short explanation of what changed
-
-how it was tested (“clicked login, saw success”)
-
-➡️ Strict: every PR links to a Jira ticket
-
-
-
-##### **6) Code is reviewed**
-
-Who: Another developer
-
-Reviews PR
-
-Checks:
-
-does it work?
-
-does it make sense?
-
-Approves or asks for changes
-
-➡️ Strict: no merging without review
-
-
-
-##### **7) Changes go live**
-
-Who: Developer or DevOps
-
-PR is merged
-
-Code is deployed
-
-Smoke check:
-
-open the app
-
-basic feature works
-
-no obvious errors
-
-➡️ Strict: always do a quick smoke check
-
-
-
-##### **8) Knowledge is saved (only if needed)**
-
-Who: Developer
-
-If this task will happen again:
-
-write a procedure
-
-store it in the repo
-
+```
 repo/docs/procedures/<topic>.md
+```
 
 Examples:
 
-“How to deploy”
+* “How to deploy”
+* “How to fix login errors”
 
-“How to fix login errors”
+➡️ **Strict:** repeated pain becomes a procedure
+➡️ **Not strict:** perfect wording
 
-➡️ Strict: repeated pain becomes a procedure
+---
 
-➡️ Not strict: perfect wording
+### 9) Ticket is closed
 
+**Who:** Developer
 
+* Updates Jira ticket with:
 
-##### **9) Ticket is closed**
+  * what was done
+  * link to PR
+  * link to procedure (if written)
+* Moves ticket to Done
 
-Who: Developer
+➡️ **Strict:** ticket closes with links and a summary
 
-Updates Jira ticket with:
+---
 
-what was done
+## WHAT WE ARE STRICT ABOUT
 
-link to PR
+* Jira ticket exists for real work
+* Ticket has an owner and “done” criteria
+* PRs link to Jira
+* Code is reviewed
+* Smoke check after deploy
+* Procedures live in the repo under docs/procedures/
 
-link to procedure (if written)
+---
 
-Moves ticket to Done
+## WHAT WE ARE NOT STRICT ABOUT
 
-➡️ Strict: ticket closes with links and a summary
+* Fancy writing
+* Perfect formatting
+* Extra tools
+* Writing docs during emergencies
 
+---
 
+## END DEV WORKFLOWS
 
+---
 
+## For School Workflows
 
-*WHAT WE ARE STRICT ABOUT*
+* **GitHub Issues** → tasks, experiments, TODOs
+* **GitHub Repo** → code, scripts, LaTeX, notebooks
+* **Google Drive** → papers, sources, rough notes, slides
 
-Jira ticket exists for real work
+### Simple school-project workflow (low stress)
 
-Ticket has an owner and “done” criteria
-
-PRs link to Jira
-
-Code is reviewed
-
-Smoke check after deploy
-
-Procedures live in the repo under docs/procedures/
-
-
-
-*WHAT WE ARE NOT STRICT ABOUT*
-
-Fancy writing
-
-Perfect formatting
-
-Extra tools
-
-Writing docs during emergencies
-
-
-
-
-
-**WILL CREATE FLOWCHART FOR EASE OF VISUALIZATION AND SIMPLIFICATION**
-
-### **##END DEV WORKFLOWS**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-###### **## For School Workflows**
-
-GitHub Issues → tasks, experiments, TODOs
-
-GitHub Repo → code, scripts, LaTeX, notebooks
-
-Google Drive → papers, sources, rough notes, slides
-
-Simple school-project workflow (low stress)
-
-Create GitHub repo
+* Create GitHub repo
 
 **Use GitHub Issues for:**
 
-experiments
-
-writing tasks
-
-milestones
+* experiments
+* writing tasks
+* milestones
 
 **Use Drive folder for:**
 
-research notes
+* research notes
 
-paper drafts
+* paper drafts
 
-slides
+* slides
 
-Link everything
+* Link everything
 
-Close issues when artifacts or code exist
+* Close issues when artifacts or code exist
 
-###### **## End School Workflows**
+---
 
+## Notes Outline
 
+### 2026-02-10
 
-
-
-Notes outline
-
-\# 2026-02-10
-
-
-
-\## Jira
-
-
-
-\## What I did
-
-
-
-\## Notes
-
-
-
-\## Tomorrow
-
-
-
+* Jira
+* What I did
+* Notes
+* Tomorrow
