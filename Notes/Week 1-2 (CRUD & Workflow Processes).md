@@ -16,7 +16,9 @@
 ---
 
 * **CRUD PowerApps Continuation**
-➡️ **Implemented Search Functionality**
+*➡️ **Implemented Search Functionality**
+*➡️ **Implemented Edit Functionality**
+
 
 ---
 
