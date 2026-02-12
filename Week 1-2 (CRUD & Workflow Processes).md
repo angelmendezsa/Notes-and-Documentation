@@ -1,25 +1,4 @@
 # Week 1–2 Work Notes (CRUD & Workflow Processes)
-
----
-
-## 02/05/2026 (Tuesday Meeting)
-
-* next week starting on CUP
-
-* How we're going to model bigger changes to
-
-* Make sure Angel has access to all webpages
-
-* Angel needs to do Power App, Luis provide instructions on how to load up? the time off app on the machine?
-
-* Luis' environment is still active. Angel needs to be hooked up onto GitHub, etc.
-
-* Proof of concept
-
-* CUP going to be the heavy stuff
-
----
-
 ## 02/10/2026 (Tuesday)
 
 ### TL;DR
@@ -263,4 +242,26 @@ Examples:
 * What I did
 * Notes
 * Tomorrow
+---
+
+## 02/05/2026 (Tuesday Meeting)
+
+* next week starting on CUP
+
+* How we're going to model bigger changes to
+
+* Make sure Angel has access to all webpages
+
+* Angel needs to do Power App, Luis provide instructions on how to load up? the time off app on the machine?
+
+* Luis' environment is still active. Angel needs to be hooked up onto GitHub, etc.
+
+* Proof of concept
+
+* CUP going to be the heavy stuff
+
+---
+
+
+
 
