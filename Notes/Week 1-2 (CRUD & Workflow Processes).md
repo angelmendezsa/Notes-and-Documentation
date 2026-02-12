@@ -1,4 +1,26 @@
 # Week 1–2 Work Notes (CRUD & Workflow Processes)
+
+## 02/12/2026 (Thursday)
+
+### TL;DR
+
+### Speaking with Andrew
+
+**CodeApps and Dataverse**
+**Focus on functionality > minor details**
+ * Friday Meeting
+
+
+
+
+---
+
+* **CRUD PowerApps Continuation**
+➡️ **Implemented Search Functionality**
+
+---
+
+
 ## 02/10/2026 (Tuesday)
 
 ### TL;DR
