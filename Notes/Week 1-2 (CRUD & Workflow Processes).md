@@ -1,24 +1,5 @@
 # Week 1–2 Work Notes (CRUD & Workflow Processes)
 
-😂 okay that’s fair.
-
-GitHub Markdown is not going to respect:
-
-“Pg 1”
-
-random spacing
-
-loose indentation
-
-visual grouping without headers
-
-that free-form note stacking
-
-It’ll just flatten it into ugly text blocks.
-
-You need clean Markdown structure, not “page-style notes.”
-
-Here’s your 02/13 section formatted the way GitHub actually wants it:
 
 ## 02/13/2026 (Friday Meeting)
 
