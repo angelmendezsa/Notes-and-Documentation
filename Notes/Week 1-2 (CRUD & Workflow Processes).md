@@ -1,5 +1,144 @@
 # Week 1–2 Work Notes (CRUD & Workflow Processes)
 
+😂 okay that’s fair.
+
+GitHub Markdown is not going to respect:
+
+“Pg 1”
+
+random spacing
+
+loose indentation
+
+visual grouping without headers
+
+that free-form note stacking
+
+It’ll just flatten it into ugly text blocks.
+
+You need clean Markdown structure, not “page-style notes.”
+
+Here’s your 02/13 section formatted the way GitHub actually wants it:
+
+## 02/13/2026 (Friday Meeting)
+
+### TL;DR
+- CUP discussion
+- Automation focus
+- End of June deadline
+- Must integrate with CHHS Storefront
+- Reduce email + manual cost allocation
+
+---
+
+### CUP Overview
+- CUP Eligible → Microsoft List (data source)
+- Meant for automation
+- Need solution built before June
+- July: restart computer refresh process
+- Computer Upgrade Program (CUP)
+
+---
+
+### Current Multi-Step Process
+1. Jose – eligibility approval
+2. Richard – purchasing review
+3. Quotes created
+4. Department Chair approval
+5. Procurement finalization
+6. Tie into CHHS Storefront
+
+---
+
+### Workflow Concerns
+- Too many emails
+- Focus on CUP + clear action items
+- Modular initially?
+- Storefront = main frontend
+- Coordinators have access
+- Staff should NOT access CUP (only laptop requests)
+- Tenure-track → future faculty eligibility
+- Build as one system or separate components?
+- How to organize information?
+
+---
+
+### Architecture Discussion (Jose, Andrew, Angel, Richard, Chris)
+
+**Backend**
+- Dataverse for data housing
+- IT + Purchasing integration
+- Defined approval routing
+
+**Frontend**
+- Storefront integration
+- Dashboards
+- Visibility into:
+  - Tickets
+  - Purchases
+  - Status
+
+---
+
+### Notifications & Visibility
+- Replace heavy email chains with system notifications
+- 4 notification groups:
+  - CD Chair – confirm eligibility
+  - End user – approved/denied
+  - Procurement (Vickers)
+  - Coordinator
+
+Issues:
+- CUP does not show on Tracker
+- Finalized procurement list should be visible to coordinators
+- Coordinator input should be visible in system
+
+---
+
+### Tracking + Department Issues
+- Need master department tracker (school-level)
+- Some purchases intangible (not catalog-based)
+- Warranty handling differs
+- Department quotes vs individual purchases
+- Role confusion: inventory coordinator vs department
+- Differences between older CUP process and current version
+
+---
+
+### Coordinator-Level Problems
+- Misallocated purchases
+- Over-promising
+- Extra workload complaints
+- Budget awareness gaps
+- Dashboard needed to reduce ticket confusion
+- Allow flexibility but enforce firm deadlines
+- Master list of CUP recipients (Andrew working on)
+- Kelsey requesting visibility
+
+---
+
+### Cost Allocation Issue
+- Tech purchases handled by coordinators
+- Need collective purchase visibility
+- Collate individual invoices?
+- Use existing data to automate grouping?
+- Richard wants automated cost allocation
+- Current process fully manual
+
+---
+
+### App Notes (02/11 Follow-Up)
+- Chartfields confirmed for overage handling
+- Too many email approvals
+- Move approvals into TAR/system view
+- Roles:
+  - Shoppers
+  - Buyers
+  - Admins
+  - CSU Buy
+- System should support Richard directly
+
+
 ## 02/12/2026 (Thursday)
 
 ### TL;DR
