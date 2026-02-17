@@ -9,7 +9,7 @@
 
 ---
 
-## 02/16/2026 – 2PM CUP Meeting
+## 2PM CUP Meeting
 
 ---
 
@@ -136,5 +136,6 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
