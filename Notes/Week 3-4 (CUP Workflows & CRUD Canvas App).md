@@ -1,3 +1,73 @@
+## 02/20/2026 (Friday 3PM CUP Meeting)
+
+- Data housing: Dataverse
+- Share all CUP data in CHHS IT SharePoint → Projects → CUP
+- Dashboards: Wireframes
+- Workflows → Wireframing
+- Second Planner board for TQR
+- Everything tracked in Planner
+- Roadmap created after plan (target items)
+
+---
+
+### CUP Direction + Ownership
+
+- Invoice automation for Richard.
+- Angel now up to speed on PowerApps.
+- Chair approver workflow discussion.
+- Andrew will decide how CUP is built.
+- CUP email system → convert to dashboard widget (target item).
+- Use system to identify next eligible people.
+  - Faculty currently ask Jose about future eligibility.
+
+---
+
+### Data Considerations
+
+- June 30 → final data release for CUP update.
+- Data sources: Stacey, Michael, Chairs.
+- Data quality issues:
+  - People leave.
+  - People join.
+  - Eligibility data becomes outdated.
+
+- March 6 → tasks assigned.
+
+---
+
+### Automation Needs
+
+- Richard needs automation to roll up quotes into one invoice.
+- Reduce reliance on email automation → move visibility into dashboards/widgets.
+  - Previously 1 email, now ~8 emails.
+  - Not necessarily fewer emails, but all tasks should be visible in a dashboard.
+
+---
+
+### Access + Governance
+
+- Use admin accounts (not personal accounts).
+- Angel needs Dataverse license.
+- Ensure all required data is available for Richard and Jose.
+- Challenge Andrew/Jose with alternative ideas where appropriate.
+
+---
+
+## 02/20/2026 (Friday 4PM Angel Progress Meeting)
+
+- Friday Angel Progress Meeting.
+- Showed CRUD PowerApp.
+- Displayed CUP workflow (Visio).
+- Discussion about future projects:
+
+  - Work on Richard’s “Invoice Roll-Up” automation.
+  - Possible migration of SharePoint list to Dataverse.
+  - Watch for yellow warning indicators in PowerApps:
+    - Filter functions not scalable past 2000 records.
+    - Delegation warnings.
+    - Potential future performance errors.
+
+
 # 02/16/2026 (Monday)
 
 ### TL;DR
@@ -136,6 +206,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
