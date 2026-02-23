@@ -1,24 +1,35 @@
-## 02/20/2026 (Friday 3PM CUP Meeting)
+## 02/20/2026 (3PM CUP Meeting)
 
-- Data housing: Dataverse
-- Share all CUP data in CHHS IT SharePoint → Projects → CUP
-- Dashboards: Wireframes
-- Workflows → Wireframing
-- Second Planner board for TQR
-- Everything tracked in Planner
-- Roadmap created after plan (target items)
+### TL;DR
+
+- Dataverse confirmed for data housing.
+- Move email-heavy workflow visibility into dashboards/widgets.
+- Wireframing + Planner organization in progress.
+- Invoice roll-up automation needed for Richard.
+- Data quality + eligibility tracking are major concerns.
+- Angel needs Dataverse license.
+
+---
+
+### Data + System Direction
+
+- Data housing: Dataverse.
+- Share all CUP data in CHHS IT SharePoint → Projects → CUP.
+- Dashboards to start as wireframes.
+- Workflows moving into wireframing phase.
+- Create second Planner board for TQR.
+- Everything tracked in Planner.
+- Roadmap defined after planning (target items).
 
 ---
 
 ### CUP Direction + Ownership
 
 - Invoice automation for Richard.
-- Angel now up to speed on PowerApps.
-- Chair approver workflow discussion.
-- Andrew will decide how CUP is built.
-- CUP email system → convert to dashboard widget (target item).
+- Andrew will decide overall build direction for CUP.
+- Convert CUP email system → dashboard widget (target item).
 - Use system to identify next eligible people.
-  - Faculty currently ask Jose about future eligibility.
+  - Currently faculty ask Jose about future eligibility.
 
 ---
 
@@ -26,7 +37,7 @@
 
 - June 30 → final data release for CUP update.
 - Data sources: Stacey, Michael, Chairs.
-- Data quality issues:
+- Data quality issue:
   - People leave.
   - People join.
   - Eligibility data becomes outdated.
@@ -35,12 +46,13 @@
 
 ---
 
-### Automation Needs
+### Automation + Workflow Issues
 
 - Richard needs automation to roll up quotes into one invoice.
-- Reduce reliance on email automation → move visibility into dashboards/widgets.
-  - Previously 1 email, now ~8 emails.
-  - Not necessarily fewer emails, but all tasks should be visible in a dashboard.
+- Reduce reliance on email automation → move tasks into dashboards/widgets.
+  - Previously 1 email.
+  - Now ~8 emails.
+  - Goal: central task visibility, not just fewer emails.
 
 ---
 
@@ -48,26 +60,34 @@
 
 - Use admin accounts (not personal accounts).
 - Angel needs Dataverse license.
-- Ensure all required data is available for Richard and Jose.
-- Challenge Andrew/Jose with alternative ideas where appropriate.
+- Ensure Richard and Jose have all required data.
+- Challenge Andrew/Jose with alternative ideas when appropriate.
 
 ---
 
-## 02/20/2026 (Friday 4PM Angel Progress Meeting)
+## 02/20/2026 (4PM Angel Progress Meeting)
 
-- Friday Angel Progress Meeting.
+### TL;DR
+
+- Demoed CRUD PowerApp.
+- Presented CUP workflow (Visio).
+- Discussed future automation + Dataverse migration.
+- Reminder to watch for PowerApps scalability warnings.
+
+---
+
+### Discussion
+
 - Showed CRUD PowerApp.
-- Displayed CUP workflow (Visio).
-- Discussion about future projects:
+- Displayed CUP workflow in Visio.
 
-  - Work on Richard’s “Invoice Roll-Up” automation.
-  - Possible migration of SharePoint list to Dataverse.
-  - Watch for yellow warning indicators in PowerApps:
-    - Filter functions not scalable past 2000 records.
-    - Delegation warnings.
-    - Potential future performance errors.
-
-
+Future work discussed:
+- Richard’s “Invoice Roll-Up” automation.
+- Possible migration of SharePoint list to Dataverse.
+- Monitor yellow warning indicators in PowerApps:
+  - Filter functions not scalable past 2000 records.
+  - Delegation warnings.
+  - Future performance issues.
 # 02/16/2026 (Monday)
 
 ### TL;DR
@@ -206,6 +226,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
