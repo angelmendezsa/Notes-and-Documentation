@@ -21,7 +21,7 @@
 ## Chris
 
 - Working on his app
-- Wants users assigned to tasks
+- Wants devs assigned to tasks
 
 ---
 
@@ -287,6 +287,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
