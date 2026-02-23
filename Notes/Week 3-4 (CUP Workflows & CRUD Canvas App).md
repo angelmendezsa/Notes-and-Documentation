@@ -1,3 +1,62 @@
+# Meeting Notes – 02/23/2026
+
+---
+
+## Andrew
+
+- Ironing out the tables
+- Working on tables planning page
+- Queries are currently not working
+- Need to map out what has happened so far
+
+---
+
+## Angel
+
+- Angel asks for a foundation of databases/lists/tools needed to automate
+- Richard's headaches that he does manually
+
+---
+
+## Chris
+
+- Working on his app
+- Wants users assigned to tasks
+
+---
+
+## Richard
+
+- Currently working with IT-SA site list
+- Uses **CHHSS Technology Procurement**
+- Environment: **TQR - DEV**
+- Site contents include:
+  - Parent request
+  - Line items
+
+---
+
+## Scope of Work / Questions
+
+- Currently guessing what Jose wants / what Richard needs
+- Does updating status cascade everywhere else?
+- Line items belong to a parent request
+- How can two objects within a parent request be combined into one?
+- Andrew to spin up a sandbox environment to work with data
+- CUP Frontend:
+  - Design set so devs should not see certain elements?
+- Legitimately impersonate other users (similar to Canvas student view for professors)
+- Ability to impersonate a specific user to check permissions
+
+---
+
+## Jose Requests
+
+- Dashboard to see tasks requiring approval/disapproval for CUP users
+- Expanded data analytics capabilities (See 13 imacs versus 12 windows laptops)
+
+---
+
 ## 02/20/2026 (3PM CUP Meeting)
 
 ### TL;DR
@@ -228,6 +287,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
