@@ -2,7 +2,7 @@
 
 ### TL;DR
 
-- Dataverse confirmed for data housing.
+- Dataverse likely confirmed for data housing.
 - Move email-heavy workflow visibility into dashboards/widgets.
 - Wireframing + Planner organization in progress.
 - Invoice roll-up automation needed for Richard.
@@ -88,6 +88,8 @@ Future work discussed:
   - Filter functions not scalable past 2000 records.
   - Delegation warnings.
   - Future performance issues.
+
+
 # 02/16/2026 (Monday)
 
 ### TL;DR
@@ -226,6 +228,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
