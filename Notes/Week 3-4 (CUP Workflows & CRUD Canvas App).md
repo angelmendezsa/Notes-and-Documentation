@@ -1,3 +1,67 @@
+# 02/24/2026 Meeting Notes
+
+### TL;DR
+
+- Discussed CUP information and Richard’s manual processes.
+- Identified inefficiencies in quote handling and invoice breakdown.
+- Major need: funding information earlier in the workflow.
+- Current process requires heavy manual PDF creation and tracking.
+
+---
+
+### General Notes
+
+- Richard uploaded his notes to OneNote.
+- Richard is sometimes in a rush to get orders out.
+- He cannot constantly change devices mid-order.
+  - Vendors cannot repeatedly modify large orders.
+  - Implies need for finalized order sheets before submission.
+- Richard submits two large orders separately:
+  - One for Mac
+  - One for HP
+
+---
+
+### What Richard Wants
+
+- Funding information as early as possible.
+  - If Chair approval, device selection, and finalized lists (Jose & Andrew) are already complete,
+    funding source for overages should also be confirmed.
+- Currently, Richard must chase departments for funding details if they did not prepare in advance.
+- Wants less manual breakdown after receiving vendor quotes.
+- Wants streamlining of large quote handling.
+
+---
+
+### Richard’s Current CUP Workflow
+
+1. CUP recipients choose device.
+2. Jose & Andrew finalize the list.
+3. Richard requests quotes from vendors.
+   - Typically receives two large quotes (Mac + HP).
+4. Richard manually breaks down the large quotes:
+   - Creates multiple manually generated PDFs per department.
+   - Includes:
+     - Devices selected
+     - Recipient names
+     - Overage amount
+     - E-waste amount
+     - Other funding details
+5. Richard uploads documentation to TQR.
+6. Jose checks / approves.
+7. Forms may then be emailed out to departments.
+8. Additional follow-up steps (unclear / needs clarification).
+
+---
+
+### Identified Pain Points
+
+- Manual PDF creation per department.
+- No automated roll-up or breakdown of vendor quotes.
+- Funding confirmation often happens too late.
+- Email-heavy communication.
+- No structured system ensuring finalized device list before order submission.
+
 # 02/23/2026 - Meeting Notes
 
 ## Angel provided access to Sandbox Environment to mess around with current implementation of CUP catalog / eligible dataset
@@ -292,6 +356,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
