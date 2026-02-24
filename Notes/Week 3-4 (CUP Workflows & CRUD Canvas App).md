@@ -1,4 +1,4 @@
-# Meeting Notes – 02/23/2026
+# 02/23/2026 - Meeting Notes
 
 ---
 
@@ -60,7 +60,7 @@
 
 ---
 
-## 02/20/2026 (3PM CUP Meeting)
+# 02/20/2026 (3PM CUP Meeting)
 
 ### TL;DR
 
@@ -127,7 +127,7 @@
 
 ---
 
-## 02/20/2026 (4PM Angel Progress Meeting)
+# 02/20/2026 (4PM Angel Progress Meeting)
 
 ### TL;DR
 
@@ -290,6 +290,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
