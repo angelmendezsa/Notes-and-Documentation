@@ -49,8 +49,9 @@
      - Other funding details
 5. Richard uploads documentation to TQR.
 6. Jose checks / approves.
-7. Forms may then be emailed out to departments.
-8. Additional follow-up steps (unclear / needs clarification).
+7. Richard provides overcharges to Finance in some spreadsheet... or somehow else
+8. Forms may then be emailed out to departments.
+9. Additional follow-up steps (unclear / needs clarification).
 
 ---
 
@@ -356,6 +357,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
