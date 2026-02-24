@@ -13,8 +13,11 @@
 
 ## Angel
 
-- Angel asks for a foundation of databases/lists/tools needed to automate
-- Richard's headaches that he does manually
+- Angel asks for a foundation of databases/lists/tools needed to automate Richard's headaches that he does manually
+- Angel to get Richard's advice about Richard's manual inefficiences so Angel can get scope of work for automation
+- Other possible work:
+- **Wireframe/ Design dashboard for Jose in Power BI or whatever tool**
+- **Maybe do the 'Change Device' or 'Discard' button on the PowerApps catalog for faculty (in case they choose wrong - rare)**
 
 ---
 
@@ -287,6 +290,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
