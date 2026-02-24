@@ -30,7 +30,7 @@
 
 ## Richard
 
-- Currently working with IT-SA site list
+- Works with IT-SA site list
 - Uses **CHHSS Technology Procurement**
 - Environment: **TQR - DEV**
 - Site contents include:
@@ -49,7 +49,7 @@
 - CUP Frontend:
   - Design set so devs should not see certain elements?
 - Legitimately impersonate other users (similar to Canvas student view for professors)
-- Ability to impersonate a specific user to check permissions
+- Ability to impersonate a specific user to check permissions or for testing
 
 ---
 
@@ -290,6 +290,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
