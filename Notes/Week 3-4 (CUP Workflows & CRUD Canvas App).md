@@ -1,5 +1,7 @@
 # 02/23/2026 - Meeting Notes
 
+## Angel provided access to Sandbox Environment to mess around with current implementation of CUP catalog / eligible dataset
+
 ---
 
 ## Andrew
@@ -290,6 +292,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
