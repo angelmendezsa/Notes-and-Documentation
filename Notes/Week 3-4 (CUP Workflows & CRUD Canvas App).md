@@ -6,7 +6,7 @@
 - Identified inefficiencies in quote handling and invoice breakdown.
 - Major need: funding information earlier in the workflow.
 - Current process requires heavy manual PDF creation and tracking.
-- Angel created a Richard CUP Workflow using Visio: [Richard CUP Workflow Diagram]([https://csulb.sharepoint.com/:u:/r/sites/CHHS-IT/Shared%20Documents/CUP/Angel%20Rough%20CUP%20Workflow.vsdx?d=wb7c4269761f14b93b18071ddf96fe378&csf=1&web=1&e=1jF72F](https://csulb.sharepoint.com/:u:/s/CHHS-IT/IQDnbp4Ws1anTptTAlsZQQPwAfbDQeySr1aD3qNXSxAZxao?e=bDdWbp))
+- Angel created a Richard CUP Workflow using Visio: [Richard CUP Workflow Diagram]([https://csulb.sharepoint.com/:u:/r/sites/CHHS-IT/Shared%20Documents/CUP/Angel%20Rough%20CUP%20Workflow.vsdx?d=wb7c4269761f14b93b18071ddf96fe378&csf=1&web=1&e=1jF72F](https://csulb.sharepoint.com/:u:/s/CHHS-IT/IQDnbp4Ws1anTptTAlsZQQPwAfbDQeySr1aD3qNXSxAZxao?e=bDdWbp](https://csulb.sharepoint.com/:u:/r/sites/CHHS-IT/Shared%20Documents/CUP/Angel%20-%20Richard%27s%20CUP%20Workflow.vsdx?d=w169e6ee756b34ea79b53025b194103f0&csf=1&web=1&e=kPNeQo))
 
 ---
 
@@ -362,6 +362,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
