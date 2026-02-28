@@ -1,3 +1,182 @@
+# Meeting Notes **Date:** 02/27/2026
+
+---
+
+## Core Objectives
+
+- Build a **Dashboard for Chair Approvers**
+- Reduce / eliminate back-and-forth email communication
+- Centralize approvals, comments, and tracking
+- Keep Computer Selection manual (for now)
+
+---
+
+## Current Constraints
+
+- No changes to Computer Selection process (manual)
+  - Exception: faculty may choose device
+- Adding/removing users = manual (automation possible later)
+- Approval process should be ubiquitous (standardized across workflow)
+- Lists can integrate with Power Automate
+
+---
+
+## Ownership & Architecture
+
+### Jose
+- Create workflow
+- Create dashboard mockup
+- Pulls data from SharePoint list → Dashboard
+- Compiles device selection list
+- Initiates Chair approval notification
+
+### Andrew (10,000 ft View – Top Down)
+- Tech quote request ≠ CUP quote request  
+  (even though they live in the same list)
+- Confirm data model direction
+- Confirm ownership boundaries
+- Complete ERD
+- Create CUP table (team may assist)
+
+### Open Architecture Question
+- How granular should roll-up tasks be?
+  - Function-level?
+  - List-level?
+  - Module-level?
+
+---
+
+## Key Dates
+
+### March 6
+- Tasks assigned
+- Andrew:
+  - Confirm data model direction
+  - Confirm ownership boundaries
+  - Complete ERD
+
+### March 30
+- CUP users → SharePoint
+- Move Jose & Richard to Dataverse
+- Their selections move to SharePoint lists delivered to users
+
+### May 30
+- Beta completion
+- Rollup completion
+
+---
+
+## Chair Dashboard Vision
+
+### Purpose
+Replace email back-and-forth with a centralized dashboard.
+
+Instead of:
+- Jose emailing Chairs repeatedly
+- Chairs asking questions via email
+- Manual follow-ups
+
+We want:
+- Chairs log into Dashboard
+- See their faculty's selected devices
+- See over-budget requests
+- Approve / Reject / Comment
+- View chartfields
+- Track outstanding items
+
+Jose may send reminder to:
+> "Check dashboard for remaining approvals"
+
+---
+
+### Dashboard Requirements
+
+- List of over-budget requests requiring approval
+- Faculty device selections visible to Chair
+- Chartfield display (Richard can assign)
+- Comment section for questions
+- Status tracking (Approved / Rejected / Pending / Needs Info)
+- Data analytics (optional enhancement)
+- Audit history
+- Remove email dependency
+
+---
+
+## Workflow Breakdown
+
+### Stage 1 – User Device Selection
+- User selects device (manual process)
+- If user does NOT select device:
+  - Chair must request clarification
+  - System should flag missing selection
+
+### Stage 2 – Jose Compilation
+- Jose compiles SharePoint list data
+- Notification sent to Chair (preferably dashboard alert, not email)
+- If over budget → requires approval
+
+### Common Issues
+- Chairs ask about:
+  - Device differences
+  - Price differences
+- Users do not select devices
+- “Weird” or unclear user questions
+
+**Need structured comment system inside dashboard.**
+
+### Stage 3 – Chair Approval
+- Chair:
+  - Approves
+  - Rejects
+  - Requests clarification
+- Questions handled inside dashboard (not email)
+
+### Stage 4 – CUP Workflow (Richard)
+- After Chair approval
+- Richard receives request
+- Obtains quotes
+- Assigns Chartfield #
+- Continues CUP processing
+
+---
+
+## System Flow (Simplified)
+
+User → SharePoint List  
+SharePoint → Dashboard  
+Chair → Approve / Comment  
+Approved → Richard (CUP Workflow)  
+Rejected / Needs Info → Back to User  
+
+---
+
+## Technical Direction
+
+- SharePoint Lists = Data source
+- Dataverse = For Jose & Richard workflow
+- Dashboard = Approval interface
+- Power Automate = Workflow triggers & notifications
+- OneNote = Bug tracking & misc notes
+
+---
+
+## Weekly Updates
+
+- Overlap?
+- Need help?
+- Blockers?
+- Progress tracking?
+
+---
+
+## Strategic Goal
+
+Eliminate email dependency.  
+Centralize approvals.  
+Increase transparency.  
+Provide Chair visibility without repeated manual follow-up.
+
+
 # 02/24/2026 
 
 ### TL;DR
@@ -362,6 +541,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
