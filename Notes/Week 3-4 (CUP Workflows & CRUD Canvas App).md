@@ -1,3 +1,107 @@
+# 02/27/2026
+
+### TL;DR
+
+- Jose wants a Chair approval dashboard (reduce email back-and-forth).
+- Device selection should not change (exceptions possible).
+- Chair approval workflow needs to move from email → dashboard.
+- Data model direction pending (Andrew to confirm).
+- Target dates: March 6 (tasks), March 30 (SharePoint flow), May 30 (Beta).
+
+---
+
+### High-Level Direction
+
+- Jose wants a dashboard.
+- No changing computer selections (manual for now).
+  - Exceptions may be made when faculty are choosing devices.
+- Adding/removing users should be manual (automation possible but not priority).
+- Jose to define workflow + create mockup.
+- Andrew operating at 10,000 ft view (top-down system direction).
+
+- Tech Quote Request (TQR) is different from CUP Quote Request,
+  even if currently in the same list.
+
+---
+
+### March 6
+
+- Tasks assigned.
+- Andrew to confirm data model direction.
+  - Needed to complete ERD.
+  - Confirm ownership boundaries (Frontend vs Backend).
+- Andrew to create initial CUP table (team can assist).
+- Question: How granular should roll-up tasks be?
+  - Down to functions?
+  - Lists?
+  - Other entities?
+
+- Weekly updates:
+  - Identify overlap.
+  - Ask for help early.
+
+---
+
+### March 30 Target
+
+- CUP users → SharePoint.
+- Move Jose & Richard to Dataverse.
+- Their selections move into SharePoint lists delivered to users.
+
+---
+
+### May 30 Target
+
+- Beta completion.
+- Invoice roll-up completion.
+
+---
+
+### Dashboard Goals (Chair Approvers)
+
+- Build dashboard for Chair approval workflow.
+- Show:
+  - Over-budget selections requiring approval.
+  - Faculty device selections.
+  - Chartfield numbers (for Richard).
+- Replace email back-and-forth with dashboard visibility.
+- Chairs should see:
+  - What their faculty selected.
+  - Budget overages.
+  - Pending approvals.
+- Okay to send reminder emails to check dashboard (but not full workflows via email).
+
+Questions:
+- How do we handle Chair questions about:
+  - Device differences?
+  - Price differences?
+- What happens when users do not select devices?
+  - Chair follows up?
+  - System reminder?
+
+- Additional dashboard data:
+  - Chartfields
+  - Comments
+  - Data analytics?
+
+---
+
+
+### Jose’s Workflow (Chair Approval Phase)
+
+1. User selects device.
+2. Jose compiles list.
+3. Notification sent to Chair to confirm budget overages.
+   - Issues:
+     - Chairs ask questions about differences in devices/prices.
+     - Users sometimes do not choose devices.
+4. After Chair confirmation →
+   flows into Richard’s CUP workflow
+   (quotes, vendor process, etc.).
+
+Goal:
+Dashboard instead of back-and-forth email notifications.
+
 # 02/24/2026 
 
 ### TL;DR
@@ -362,6 +466,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
