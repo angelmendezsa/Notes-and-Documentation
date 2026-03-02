@@ -7,6 +7,7 @@
 - Chair approval workflow needs to move from email → dashboard.
 - Data model direction pending (Andrew to confirm).
 - Target dates: March 6 (tasks), March 30 (SharePoint flow), May 30 (Beta).
+- Utilize Role naming schemes rather than direct names
 
 ---
 
@@ -466,6 +467,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
