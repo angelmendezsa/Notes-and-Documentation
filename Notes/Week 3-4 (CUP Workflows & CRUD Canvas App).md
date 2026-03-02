@@ -101,7 +101,7 @@ Questions:
    (quotes, vendor process, etc.).
 
 Goal:
-Dashboard instead of back-and-forth email notifications.
+**Dashboard instead of back-and-forth email notifications.**
 
 # 02/24/2026 
 
@@ -467,6 +467,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
