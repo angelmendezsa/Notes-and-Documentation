@@ -2,7 +2,7 @@
 
 ### TL;DR
 
-- Continuing wireframe work for Chair Dashboard.
+- Continuing wireframe work for Chair Dashboard. 
 - Researching and defining what Dataverse is.
 - Evaluating why Dataverse may be better than SharePoint for CUP.
 
@@ -169,11 +169,11 @@ We need to:
 
 ### Angel Question
 
-- Why are we using Dataverse?
+- Why are we using Dataverse? (Answered on 3/3/2026 by Angel)
 - Are all the goals just to:
   - Make workflow easier for decision makers?
   - Automate + finalize CUP data flow?
-  - Improve visibility for Richard?
+  - Improve efficiency for Richard?
 
 ---
 
@@ -185,7 +185,7 @@ We need to:
 
 ---
 
-### Angel Action Items
+## Angel Action Items
 
 - Update workflows to use role names (not personal names). As they may be sent to other schools. 
 - Provide Andrew technical documentation for LOR
