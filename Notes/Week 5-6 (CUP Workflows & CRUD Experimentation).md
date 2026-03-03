@@ -2,7 +2,8 @@
 
 ### TL;DR
 
-- Continuing wireframe work for Chair Dashboard. 
+- Continuing wireframe work for Chair Dashboard.
+- Made minor changes to improper parts of my original workflows for Chairs & IT Supervisor
 - Researching and defining what Dataverse is.
 - Evaluating why Dataverse may be better than SharePoint for CUP.
 
