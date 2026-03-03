@@ -111,7 +111,7 @@ Goal:
 - Identified inefficiencies in quote handling and invoice breakdown.
 - Major need: funding information earlier in the workflow.
 - Current process requires heavy manual PDF creation and tracking.
-- Angel created a Richard CUP Workflow using Visio: [Richard CUP Workflow Diagram](https://csulb.sharepoint.com/:u:/s/CHHS-IT/IQDnbp4Ws1anTptTAlsZQQPwAfbDQeySr1aD3qNXSxAZxao?e=kPNeQo)&csf=1&web=1)
+- Angel created a Richard CUP Workflow using Visio: [Richard CUP Workflow Diagram](https://csulb.sharepoint.com/:u:/s/CHHS-IT/IQDnbp4Ws1anTptTAlsZQQPwAfbDQeySr1aD3qNXSxAZxao?e=kPNeQo)
 ---
 
 ## Meeting Notes
@@ -466,6 +466,7 @@ Goal: reduce email chains + manual tracking
 - Continuing Canvas CRUD app development
 - Refining structure to align with CUP workflow
 - Focus still on functionality > polish
+
 
 
 
