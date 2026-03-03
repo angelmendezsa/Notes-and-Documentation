@@ -2,7 +2,7 @@
 
 ### TL;DR
 
-- Continuing wireframe work for Chair Dashboard.
+- Continuing work on wireframe Dashboard for Chairs. [Chair Dashboard Wireframe](https://csulb.sharepoint.com/:u:/r/sites/CHHS-IT/Shared%20Documents/CUP/Angel%20-%20CUP%20Workflow%20by%20Role.vsdx?d=w169e6ee756b34ea79b53025b194103f0&csf=1&web=1&e=bJHJsT)
 - Made minor changes to improper parts of my original workflows for Chairs & IT Supervisor
 - Researching and defining what Dataverse is.
 - Evaluating why Dataverse may be better than SharePoint for CUP.
