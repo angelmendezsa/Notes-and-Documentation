@@ -1,3 +1,67 @@
+# 03/03/2026
+
+### TL;DR
+
+- Continuing wireframe work for Chair Dashboard.
+- Researching and defining what Dataverse is.
+- Evaluating why Dataverse may be better than SharePoint for CUP.
+
+---
+
+### Work in Progress
+
+- Continuing work on wireframe Dashboard for Chairs.
+
+---
+
+## What is Dataverse?
+
+- Microsoft Dataverse.
+- Secure, scalable, intelligent data platform for Power Platform and Microsoft 365.
+- A “system of action.”
+- Empowers organizations to unlock data’s full potential.
+- Enables faster insights.
+- Avoids expensive and time-consuming custom data infrastructure.
+- Unifies multiple data types in one place.
+- Low-code capabilities → non-developers can build useful apps.
+- Builds reusable components that can scale across thousands of apps.
+- All data connected and accessible when needed.
+
+---
+
+## When is Dataverse Better Than SharePoint?
+
+Dataverse is better when:
+
+- Data relationships matter  
+  (Users → Departments → Devices → Approvals)
+
+- Record-level security is required.
+- You expect growth.
+- You need performance beyond 2,000+ record limits.
+- You want to avoid delegation issues.
+- You need structured, relational data.
+
+---
+
+## Why Are We Considering Dataverse for CUP?
+
+Because CUP is:
+
+- Multi-role (Users, Chairs, Procurement, IT).
+- Multi-step workflow.
+- Approval-based.
+- Financially sensitive.
+- Data-heavy and growing.
+
+Dataverse provides:
+
+- Structured tables.
+- Relationships between data.
+- Secure role-based access.
+- Scalable performance.
+- Cleaner automation.
+
 # 03/02/2026 Meeting Notes
 
 ### TL;DR
