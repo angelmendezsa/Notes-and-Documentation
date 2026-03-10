@@ -1,3 +1,24 @@
+# 03/06/2026
+
+### TL;DR
+- Angel Back in Office
+- Angel to Get accustomed to [CHHS-IT-SA site](https://csulb.sharepoint.com/sites/CHHS-IT-SA?e=1%3Afa68d22a1c9e426ea715b1f5b94013b5&xsdata=MDV8MDJ8QW5nZWwuTWVuZGV6LVNBQGNzdWxiLmVkdXxjOTE5MTgzOGQ0MGQ0ZTMyYzU1YzA4ZGU3OGI0MDllZHxkMTc1Njc5YmFjZDM0NjQ0YmU4MmFmMDQxOTgyOTc3YXwwfDB8NjM5MDgwOTExODA4NzgzMDcxfFVua25vd258VFdGcGJHWnNiM2Q4ZXlKRmJYQjBlVTFoY0draU9uUnlkV1VzSWxZaU9pSXdMakF1TURBd01DSXNJbEFpT2lKWGFXNHpNaUlzSWtGT0lqb2lUV0ZwYkNJc0lsZFVJam95ZlE9PXwwfHx8&sdata=MlhoRUs4RmJqdGt4VWhaN2pRYy9FRjI5RXNwR1RRS2x3UmZSc2thWGFycz0%3D&CT=1772495917649&OR=OWA-NT-Mail&CID=c06bbafe-ba26-1388-4bb3-a95cb715d4c7&clickParams=eyJYLUFwcE5hbWUiOiJNaWNyb3NvZnQgT3V0bG9vayBXZWIgQXBwIiwiWC1BcHBWZXJzaW9uIjoiMjAyNjAyMTMwMDEuMDYiLCJPUyI6IldpbmRvd3MgMTEifQ%3D%3D&Mode=Edit)
+- Angel to make a minor change or update and create technical or user documentation about it
+
+# 03/09/2026
+
+### TL;DR
+- Angel Out Sick
+
+---
+
+# 03/06/2026
+
+### TL;DR
+- Angel Out Sick
+
+---
+
 # 03/03/2026
 
 ### TL;DR
