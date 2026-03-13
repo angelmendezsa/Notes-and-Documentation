@@ -1,3 +1,33 @@
+# 03/13/2026
+
+### TL;DR
+
+- 3/13 CUP Meeting in Conference Room
+
+---
+
+## Future Work
+
+- Angel addded a new task in Microsoft Planner.
+- Task: "**Create Chair PowerApp Dashboard Prototype**"
+
+---
+
+## What is Dataverse?
+
+- Microsoft Dataverse.
+- Secure, scalable, intelligent data platform for Power Platform and Microsoft 365.
+- A “system of action.”
+- Empowers organizations to unlock data’s full potential.
+- Enables faster insights.
+- Avoids expensive and time-consuming custom data infrastructure.
+- Unifies multiple data types in one place.
+- Low-code capabilities → non-developers can build useful apps.
+- Builds reusable components that can scale across thousands of apps.
+- All data connected and accessible when needed.
+
+---
+
 # 03/06/2026
 
 ### TL;DR
