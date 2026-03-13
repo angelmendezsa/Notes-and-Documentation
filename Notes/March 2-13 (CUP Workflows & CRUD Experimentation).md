@@ -1,10 +1,84 @@
-# 03/13/2026
+## 03/13/2026 – CUP Meeting
 
 ### TL;DR
 
-- 3/13 CUP Meeting in Conference Room
+- Reviewed PowerApps Chair CUP Dashboard prototype.
+- Discussed dataset requirements and Excel planning document.
+- Clarified high-level workflow for CUP approvals and procurement.
+- Identified edge cases and reminder automation ideas.
+- Richard wants chartfields finalized before procurement roll-up.
 
 ---
+
+### Workflow Updates
+
+- Jose made minor changes to Angel’s workflows.
+- Chair approval stage and Richard roll-up process being mapped out in SharePoint.
+- Continue building mock-up for the system.
+
+---
+
+### Dashboard Discussion
+
+- Review PowerApps Chair CUP Dashboard prototype with required datasets.
+- Reference Excel work from **03/06/2026**.
+  - Excel file: **“Ideas for CUP Dashboard”**.
+
+---
+
+### Next Meeting
+
+**Tuesday – March 17, 2026**
+
+- Walk through Excel file.
+- Review step-by-step dynamic properties of the workflow.
+
+---
+
+### Proposed CUP Workflow
+
+1. Qualified users list created.
+2. Chair approval of eligibility.
+3. User chooses device.
+4. Chair accepts or rejects selection.
+5. If approved → Chartfield obtained.
+6. Once required values are confirmed → procurement process begins.
+
+---
+
+### Excel Dashboard Ideas
+
+- Possibly add email reminders for Chairs to complete pending tasks.
+- Consider automated reminder batches every **2 weeks**.
+
+---
+
+### Edge Cases to Consider
+
+- If a Chair rejects an over-budget device:
+  - User likely needs to select a device again.
+  - Previous request should be deleted.
+  - Send new email with link to CUP page.
+
+Questions:
+- Should the Chair be notified again after rejection?
+- Should reminder batches show remaining tasks?  
+  - Example: “5 pending approvals remaining.”
+
+---
+
+### Richard’s Perspective
+
+- Chartfields should be approved **before procurement**.
+- Once approved, data moves to **Dataverse for review**.
+- Chair approvals completed first.
+- Richard then reviews all requests at once and performs **auto roll-up**.
+
+---
+
+### Next Week Focus
+
+- Decide which direction to lean toward based on mock-ups presented.
 
 ## Future Work
 
